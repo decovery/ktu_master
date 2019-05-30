@@ -1,0 +1,31 @@
+button {
+  border-radius: 5px;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: .875rem;
+  font-weight: 500;
+  margin: 5px 15px;
+  padding: 13px 19px;
+}
+.c-button__primary {
+  background-color: $colorLink;
+  color:#fff;
+}
+.c-button__secondary {
+  background-color: rgb(243,242,238);
+  border: 2px solid darken($color: rgb(243,242,238), $amount: 2%);
+  color: $drawer-bg;
+  &:hover, &:focus {
+    background-color: $drawer-bg;
+    border: 2px solid darken($color: $drawer-bg, $amount: 3%);
+    color: #fff; 
+  }
+}
+.c-button__fancy {
+  background-color: rgb(206,211,58);
+  border: 2px solid darken($color: rgb(206,211,58), $amount: 2%);
+  color: rgb(19,43,74);
+  &:hover, &:focus {
+    background-color: transparent;
+    border: 2px solid rgb(206,211,58);
+  }
+}

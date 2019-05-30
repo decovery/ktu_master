@@ -1,0 +1,11 @@
+.b-wrap {
+  display: flex;
+}
+.b-course {
+  margin-left: $sidebarWidth;
+}
+@media screen and (max-width: 48rem) {
+  .b-course {
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,15 @@
+.b-course__inner {
+  padding: 0 1rem 1rem;
+}
+.b-course__content {
+  border: $colorSectionBorder;
+  padding: 1rem;
+  .topics {
+    list-style: none;
+  }
+}
+.b-course-content__footer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; 
+}

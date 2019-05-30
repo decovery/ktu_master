@@ -1,0 +1,17 @@
+.c-menu-button {
+  border: 1px solid #ccc;
+  padding: 6px 10px;
+  margin: .5rem;
+}
+.js-nav_button {
+  display: none;
+}
+
+@media screen and (max-width: 48rem) {
+  .js-nav_button {
+    display: block;
+  }
+  .b-nav-sidebar {
+    display: none;
+  }
+}

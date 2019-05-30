@@ -1,0 +1,14 @@
+.b-nav-breadcrumbs {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 0.833rem;
+  font-weight: 500;
+  line-height: 1.8;
+  color: #000101;
+  .breadcrumb {
+    background-color: transparent;
+    padding-left: 0;
+    margin-bottom: 0;
+  }
+}

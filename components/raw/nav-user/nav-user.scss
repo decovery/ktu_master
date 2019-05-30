@@ -1,0 +1,19 @@
+.b-nav-user {
+  color: $colorNavbar;
+  margin-left: auto;
+  .nav-link {
+    cursor: pointer;
+    min-width: 40px;
+    height: auto;
+    text-align: center;
+    &:focus, &:hover {
+      color: $colorNavbarFocus;
+    }
+  }
+}
+.b-nav-user__item {
+  display: flex;
+  a {
+    color: $colorNavbar;
+  }
+}
